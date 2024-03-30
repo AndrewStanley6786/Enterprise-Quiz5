@@ -48,4 +48,5 @@ using (var scope = scopeFactory.CreateScope())
     await TransactionContext.CreateAdminUser(scope.ServiceProvider);
 }
 
+
 app.Run();
